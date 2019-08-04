@@ -21,7 +21,7 @@ begin
   for subNumber := 0 to GetSubtitleCount - 2 do
   begin
 		subEnd := GetSubtitleFinalTime(subNumber);
-    nextSubStart := GetSubtitleInitialTime(subNumber + 1); // ?????? ?? ????????? ????????
+    nextSubStart := GetSubtitleInitialTime(subNumber + 1);
     pause := nextSubStart - subEnd;
 
     subtitleText := GetSubtitleText(subNumber);
