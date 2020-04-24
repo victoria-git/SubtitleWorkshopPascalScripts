@@ -9,4 +9,4 @@ This is useful for the dubbers of a movie who would use the subtitle text to kno
 
 ## Strip_tags.pas
 
-Remove all <u>, <i> and <b> tags from subtitles.
+Remove all \<u>, \<i> and \<b> tags from subtitles.
